@@ -1,18 +1,10 @@
 import styled from "styled-components";
 
-export const Container = styled.section< {width: number} >`
-    grid-area: projects;
-
+export const Container = styled.section`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 960px;
-    height: 90px;
-    padding: 0px 30px;
-
-    @media(max-width: 826px) {
-        width: ${props => `${props.width}px`};
-    }
+    padding: 30px;
 
     @media(max-width: 396px) {
         display: block;

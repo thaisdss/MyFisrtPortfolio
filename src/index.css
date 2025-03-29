@@ -8,6 +8,13 @@
   box-sizing: border-box;
 }
 
+body, html {
+  height: 100vh;
+  width: 100vh;
+  width: 100%;
+  height: 100%;
+}
+
 a{
   text-decoration: none;
   color: #837E9F;

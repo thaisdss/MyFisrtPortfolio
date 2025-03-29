@@ -1,40 +1,40 @@
 import { Link } from "../../types/Link";
-import * as C from "./style";
-
-type Props = {
-    width: number;
-}
-
-export function Links( {width}: Props ) {
+import { Container  } from "./style";
+export const Links = () => {
+    // Substitua as informações abaixo pelas de suas redes sociais e contato.
+    // title: O nome que aparecerá na tela.
+    // src: o nome da imagem que deverá ser pega do public/assets - NÃO SUBSTITUIR ISSO.
+    // alt: O texto que aparecerá ao passar o mouse sobre a imagem.
+    // link: O link que o botão irá levar.
     const links: Link[] = [
         {
-            title: "thaisdss",
+            title: "octocat",
             src: "github",
             alt: "Ícone do GitHub",
-            link: "https://github.com/thaisdss",
+            link: "https://github.com/ocatocat",
         },
         {
-            title: "thaisdss",
+            title: "github",
             src: "linkedin",
             alt: "Ícone do Linkedin",
-            link: "https://www.linkedin.com/in/thaisdss/",
+            link: "https://www.linkedin.com/company/github/",
         },
         {
-            title: "thaisdss.silva",
+            title: "github",
             src: "instagram",
             alt: "Ícone do Instagram",
-            link: "https://www.instagram.com/thaisdss.silva/",
+            link: "https://www.instagram.com/github/",
         },
         {
-            title: "thaisdss.silva@gmail.com",
+            title: "support@github.com",
             src: "mail",
             alt: "Ícone do E-mail",
-            link: "mailto:thaisdss.silva@gmail.com",
+            link: "mailto:support@github.com",
         },
     ]
 
     return(
-        <C.Container width={width}>
+        <Container>
            <ul>
                 <li>
                     <img src="assets/map-pin.svg" alt="Ícone de Mapa" />
@@ -48,6 +48,6 @@ export function Links( {width}: Props ) {
                     </li>
                 ))}
            </ul>
-        </C.Container>
+        </Container>
     );
 }

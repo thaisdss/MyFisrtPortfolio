@@ -1,20 +1,17 @@
-import * as C from "./style";
+import { Container } from "./style";
 
-type Props = {
-    width: number;
-}
-
-export function Techs( { width }: Props ) {
+export const Techs = () => {
+    // Substitua os items do array pelas suas principais tecnologias. Obs: Somente as principais.
     const techs = ["ReactJS", "TypeScript", "JavaScript", "HTML", "CSS", "Git", "GitHub", "Next.js"]
 
     return(
-        <C.Container width={width} >
+        <Container>
             <h2>Tecnologias</h2>
-            <C.TechsContainer>
+            <div>
                 {techs.map(tech => (
                     <p key={tech}>{tech}</p>
                 ))}
-            </C.TechsContainer>
-        </C.Container>
+            </div>
+        </Container>
     );
 }

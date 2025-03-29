@@ -1,16 +1,16 @@
-import * as C from "./styles";
+import { Container } from "./styles";
 
-type Props = {
-    width: number;
+type ProjectsProps = {
+    user: string
 }
 
-export function Projects( {width}: Props ) {
+export const Projects = ({ user }: ProjectsProps) => {
     return(
-        <C.Container  width={width}>
+        <Container>
             <h2>Meus Projetos</h2>
             <p>
-                <a href="https://github.com/thaisdss?tab=repositories" target="_blank">Veja Todos</a>
+                <a href={`https://github.com/${user}?tab=repositories`} target="_blank">Veja Todos</a>
             </p>
-        </C.Container>
+        </Container>
     );
 }
