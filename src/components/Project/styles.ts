@@ -20,10 +20,18 @@ export const Container = styled.section`
     }
 
     .details {
+        display: flex;
+        justify-content: space-between;
+
         > div {
             display: flex;
             align-items: flex-end;
             gap: 10px;
+        }
+
+        > div:last-of-type > img {
+            width: 24px;
+            height: 24px;
         }
     }
 `;

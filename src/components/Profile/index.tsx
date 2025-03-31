@@ -1,7 +1,7 @@
-import { Container } from "./style";
+import { Container } from "./style"
 
 type Props = {
-    url: string;
+    url: string
 }
 
 export const Profile = ({ url }: Props) => {

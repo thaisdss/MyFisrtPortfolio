@@ -1,5 +1,6 @@
-import { Link } from "../../types/Link";
-import { Container  } from "./style";
+import { Link } from "../../types/Link"
+import { Container  } from "./style"
+
 export const Links = () => {
     // Substitua as informações abaixo pelas de suas redes sociais e contato.
     // title: O nome que aparecerá na tela.

@@ -15,16 +15,16 @@ body, html {
   height: 100%;
 }
 
-a{
+a {
   text-decoration: none;
   color: #837E9F;
 }
 
-a:hover{
+a:hover {
   text-decoration: underline;
 }
 
-section{
+section {
   background-color: #302F3D;
   border-radius: 15px;
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.477);

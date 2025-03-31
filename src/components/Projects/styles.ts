@@ -11,7 +11,7 @@ export const Container = styled.section`
         text-align: center;
         padding-top: 15px;
         
-        p{
+        p {
             margin-top: 15px;
         }
     }

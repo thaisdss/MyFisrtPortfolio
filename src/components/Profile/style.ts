@@ -8,7 +8,7 @@ export const Container = styled.section`
     padding: 30px;
     gap: 30px;
 
-    img{
+    img {
         width: 45%;
         border-radius: 100%;
         border: 2px solid rgb(0, 206, 41);

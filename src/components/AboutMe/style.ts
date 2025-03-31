@@ -6,11 +6,11 @@ export const Container = styled.section`
     > div {
         margin-top: 15px;
 
-        > p{
+        > p {
             line-height: 1.5;
         }
 
-        & > p:not(:last-of-type){
+        & > p:not(:last-of-type) {
             margin-bottom: 15px;
         }
     }

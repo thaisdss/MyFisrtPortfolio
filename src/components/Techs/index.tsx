@@ -1,4 +1,4 @@
-import { Container } from "./style";
+import { Container } from "./style"
 
 export const Techs = () => {
     // Substitua os items do array pelas suas principais tecnologias. Obs: Somente as principais.

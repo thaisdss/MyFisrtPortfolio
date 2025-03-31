@@ -9,7 +9,7 @@ export const Container = styled.section`
         gap: 15px;
         margin-top: 30px;
 
-        > p{
+        > p {
             background-color: #CB92B1;
             color: #000;
             border-radius: 30px;

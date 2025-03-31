@@ -1,13 +1,13 @@
-import { UserRepo } from "../../types/UserRepo";
-import { Container } from "./styles";
+import { UserRepo } from "../../types/UserRepo"
+import { Container } from "./styles"
 
 type Props = {
-    dataRepo: UserRepo;
-    index: number;
+    dataRepo: UserRepo
+    index: number
 }
 
 export const Project = ({ dataRepo, index }: Props) => {
-    function redirectPage() {
+    const redirectPage = () => {
         window.open(dataRepo.html_url, "_blank")
     }
 
@@ -24,12 +24,17 @@ export const Project = ({ dataRepo, index }: Props) => {
                 <div>
                     <img src="assets/star.svg" alt="Imagem de Estrela" />
                     <p className="star">{dataRepo.stargazers_count}</p>
-                </div>
 
-                <div>
                     <img src="assets/git-branch.svg" alt="Imagem de Branch" />
                     <p>{dataRepo.forks_count}</p>
                 </div>
+
+                {dataRepo.language && (      
+                    <div>
+                        <img src="assets/code.svg" alt="Imagem de Código" />
+                        <p>{dataRepo.language}</p>
+                    </div>
+                )}
             </div>
         </Container>
     );
