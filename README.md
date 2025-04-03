@@ -20,7 +20,11 @@ Esse projeto foi desenvolvido para ajudar devs iniciantes que desejam mostrar al
 
 8. Dentro da pasta **"components"**, abra a pasta **"Links"**, entre no arquivo **"index.tsx"**, substitua as informações de exemplo dos links pelas suas informações. Se necessário pode adicionar mais um link, respeitando o tipo estabelecido.
 
-9. Dentro da pasta **"components"**, abra a pasta **"Profile"**, entre no arquivo **"index.tsx"**, substitua o texto da tag "h1" pelo seu nome e sobrenome (ideal utilizar apenas um sobrenome); e o texto da tag "p" pelo sua área de atuação e nível profissional (nível profissional é opcional). Exemplo: <h1>Thaís Silva</h1>, <p>Front-end Developer</p>.
+9. Dentro da pasta **"components"**, abra a pasta **"Profile"**, entre no arquivo **"index.tsx"**, substitua o texto da tag "h1" pelo seu nome e sobrenome (ideal utilizar apenas um sobrenome); e o texto da tag "p" pelo sua área de atuação e nível profissional (nível profissional é opcional). Exemplo: 
+```
+<h1>Thaís Silva</h1> 
+<p>Front-end Developer</p>
+```
 
 10. Dentro da pasta **"components"**, abra a pasta **"Techs"**, entre no arquivo **"index.tsx"**, substitua os textos no array pelas suas principais tecnologias, lembrando de respeitar a estrutura (texto sempre entre aspas e utilizar vírgula para separar os textos).
 
@@ -31,8 +35,13 @@ git commit -m "Descrição das alterações"
 git push origin main  # Ou outra branch, se estiver usando outra
 ```
 
-12. Publique seu projeto na plataforma **Versel**. Faça login na plataforma com o seu Github e siga o tutorial a seguir: []().
+12. Publique seu projeto na plataforma **Versel**. Faça login na plataforma com o seu Github e siga o tutorial a seguir: [deploy Versel](https://www.escoladnc.com.br/blog/como-hospedar-seu-site-react-no-vercel-e-github/).
 
+13. Caso você tenha um domínio personalizado para o seu portifólio siga o tutorial a seguir: [add domínio personalizado](https://blog.ricardotenv.dev/adicionando-um-dominio-personalizado-na-vercel). Caso você não tenha basta utilizar o domínio da Versel: **vercel.app**. Exemplo: myfirstportifolio.vercel.app
+
+## Considerações Finais
+
+Espero que esse projeto ajude muitos desenvolvedores iniciantes a conseguir mostrar seus projetos e habilidades, facilitando sua entrada no mercado de trabalho.
 
 ## Observações Finais
 
